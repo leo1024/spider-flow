@@ -1,14 +1,14 @@
 2023-03-08
-- 把spider-spider 修改为 spider-design
+- 把spider-spider 修改为 spider-flow
 - 并设置版本为0.6.0
 
 2023-03-07
-- 新增spider-design-elasticsearch插件
+- 新增spider-flow-elasticsearch插件
 - 使用maven的revision
 
 2023-03-06
-- 新增spider-design-plugin插件模块
-- 把mailbox、minio、mongodb、ocr、oss、redis、selenium、translate插件移入spider-design-plugin插件
+- 新增spider-flow-plugin插件模块
+- 把mailbox、minio、mongodb、ocr、oss、redis、selenium、translate插件移入spider-flow-plugin插件
 
 
 2023-03-03
@@ -35,7 +35,7 @@
 
 2023-03-01
 - 升级为0.5.1版本
-- 新增spider-design-translate翻译插件
+- 新增spider-flow-translate翻译插件
 
 
 2022-11-11
@@ -43,23 +43,23 @@
 
 - 整合插件
 
-[翻译插件](https://gitee.com/emaisi/spider-design/tree/master/spider-design-plugin/spider-design-translate)
+[翻译插件](https://gitee.com/emaisi/spider-flow/tree/master/spider-flow-plugin/spider-flow-translate)
 
-[minio插件](https://gitee.com/emaisi/spider-design/tree/master/spider-design-plugin/spider-design-minio)
+[minio插件](https://gitee.com/emaisi/spider-flow/tree/master/spider-flow-plugin/spider-flow-minio)
  
-[Selenium插件](https://gitee.com/emaisi/spider-design/tree/master/spider-design-plugin/spider-design-selenium)
+[Selenium插件](https://gitee.com/emaisi/spider-flow/tree/master/spider-flow-plugin/spider-flow-selenium)
  
-[Redis插件](https://gitee.com/emaisi/spider-design/tree/master/spider-design-plugin/spider-design-redis)
+[Redis插件](https://gitee.com/emaisi/spider-flow/tree/master/spider-flow-plugin/spider-flow-redis)
  
-[OSS插件](https://gitee.com/emaisi/spider-design/tree/master/spider-design-plugin/spider-design-oss)
+[OSS插件](https://gitee.com/emaisi/spider-flow/tree/master/spider-flow-plugin/spider-flow-oss)
 
-[Mongodb插件](https://gitee.com/emaisi/spider-design/tree/master/spider-design-plugin/spider-design-mongodb)
+[Mongodb插件](https://gitee.com/emaisi/spider-flow/tree/master/spider-flow-plugin/spider-flow-mongodb)
  
-[IP代理池插件](https://gitee.com/emaisi/spider-design/tree/master/spider-design-plugin/spider-design-proxypool)
+[IP代理池插件](https://gitee.com/emaisi/spider-flow/tree/master/spider-flow-plugin/spider-flow-proxypool)
  
-[OCR识别插件](https://gitee.com/emaisi/spider-design/tree/master/spider-design-plugin/spider-design-ocr)
+[OCR识别插件](https://gitee.com/emaisi/spider-flow/tree/master/spider-flow-plugin/spider-flow-ocr)
  
-[电子邮箱插件](https://gitee.com/emaisi/spider-design/tree/master/spider-design-plugin/spider-design-mailbox)
+[电子邮箱插件](https://gitee.com/emaisi/spider-flow/tree/master/spider-flow-plugin/spider-flow-mailbox)
 
 
 
@@ -69,9 +69,9 @@
 <p align="center">
     <a target="_blank" href="https://www.oracle.com/technetwork/java/javase/downloads/index.html"><img src="https://img.shields.io/badge/JDK-1.8+-green.svg" /></a>
     <a target="_blank" href="https://www.spiderflow.org"><img src="https://img.shields.io/badge/Docs-latest-blue.svg"/></a>
-    <a target="_blank" href="https://github.com/emaisi/spider-design/releases"><img src="https://img.shields.io/github/v/release/emaisi/spider-design?logo=github"></a>
-    <a target="_blank" href='https://gitee.com/emaisi/spider-design'><img src="https://gitee.com/emaisi/spider-design/badge/star.svg?theme=white" /></a>
-    <a target="_blank" href='https://github.com/emaisi/spider-design'><img src="https://img.shields.io/github/stars/emaisi/spider-design.svg?style=social"/></a>
+    <a target="_blank" href="https://github.com/emaisi/spider-flow/releases"><img src="https://img.shields.io/github/v/release/emaisi/spider-flow?logo=github"></a>
+    <a target="_blank" href='https://gitee.com/emaisi/spider-flow'><img src="https://gitee.com/emaisi/spider-flow/badge/star.svg?theme=white" /></a>
+    <a target="_blank" href='https://github.com/emaisi/spider-flow'><img src="https://img.shields.io/github/stars/emaisi/spider-flow.svg?style=social"/></a>
     <a target="_blank" href="LICENSE"><img src="https://img.shields.io/:license-MIT-blue.svg"></a>
     <a target="_blank" href="https://shang.qq.com/wpa/qunwpa?idkey=10faa4cf9743e0aa379a72f2ad12a9e576c81462742143c8f3391b52e8c3ed8d"><img src="https://img.shields.io/badge/Join-QQGroup-blue"></a>
 </p>
@@ -97,23 +97,23 @@
 
 ## 插件
 
-- [x] [翻译插件](https://gitee.com/emaisi/spider-design/tree/master/spider-design-plugin/spider-design-translate)
+- [x] [翻译插件](https://gitee.com/emaisi/spider-flow/tree/master/spider-flow-plugin/spider-flow-translate)
 
-- [x] [minio插件](https://gitee.com/emaisi/spider-design/tree/master/spider-design-plugin/spider-design-minio)
+- [x] [minio插件](https://gitee.com/emaisi/spider-flow/tree/master/spider-flow-plugin/spider-flow-minio)
 
-- [x] [Selenium插件](https://gitee.com/emaisi/spider-design/tree/master/spider-design-plugin/spider-design-selenium)
+- [x] [Selenium插件](https://gitee.com/emaisi/spider-flow/tree/master/spider-flow-plugin/spider-flow-selenium)
 
-- [x] [Redis插件](https://gitee.com/emaisi/spider-design/tree/master/spider-design-plugin/spider-design-redis)
+- [x] [Redis插件](https://gitee.com/emaisi/spider-flow/tree/master/spider-flow-plugin/spider-flow-redis)
 
-- [x] [OSS插件](https://gitee.com/emaisi/spider-design/tree/master/spider-design-plugin/spider-design-oss)
+- [x] [OSS插件](https://gitee.com/emaisi/spider-flow/tree/master/spider-flow-plugin/spider-flow-oss)
 
-- [x] [Mongodb插件](https://gitee.com/emaisi/spider-design/tree/master/spider-design-plugin/spider-design-mongodb)
+- [x] [Mongodb插件](https://gitee.com/emaisi/spider-flow/tree/master/spider-flow-plugin/spider-flow-mongodb)
 
-- [x] [IP代理池插件](https://gitee.com/emaisi/spider-design/tree/master/spider-design-plugin/spider-design-proxypool)
+- [x] [IP代理池插件](https://gitee.com/emaisi/spider-flow/tree/master/spider-flow-plugin/spider-flow-proxypool)
 
-- [x] [OCR识别插件](https://gitee.com/emaisi/spider-design/tree/master/spider-design-plugin/spider-design-ocr)
+- [x] [OCR识别插件](https://gitee.com/emaisi/spider-flow/tree/master/spider-flow-plugin/spider-flow-ocr)
 
-- [x] [电子邮箱插件](https://gitee.com/emaisi/spider-design/tree/master/spider-design-plugin/spider-design-mailbox)
+- [x] [电子邮箱插件](https://gitee.com/emaisi/spider-flow/tree/master/spider-flow-plugin/spider-flow-mailbox)
 
 ## 项目部分截图
 ### 爬虫列表
@@ -132,4 +132,4 @@
 
 
 ## 免责声明
-请勿将`spider-design`应用到任何可能会违反法律规定和道德约束的工作中,请友善使用`spider-design`，遵守蜘蛛协议，不要将`spider-design`用于任何非法用途。如您选择使用`spider-design`即代表您遵守此协议，作者不承担任何由于您违反此协议带来任何的法律风险和损失，一切后果由您承担。
+请勿将`spider-flow`应用到任何可能会违反法律规定和道德约束的工作中,请友善使用`spider-flow`，遵守蜘蛛协议，不要将`spider-flow`用于任何非法用途。如您选择使用`spider-flow`即代表您遵守此协议，作者不承担任何由于您违反此协议带来任何的法律风险和损失，一切后果由您承担。

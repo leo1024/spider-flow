@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>org.spiderflow</groupId>
+        <artifactId>spider-flow</artifactId>
+        <version>${revision}</version>
+    </parent>
+    <packaging>pom</packaging>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>spider-flow-plugin</artifactId>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    <modules>
+        <module>spider-flow-elasticsearch</module>
+        <module>spider-flow-mailbox</module>
+        <module>spider-flow-minio</module>
+        <module>spider-flow-mongodb</module>
+        <module>spider-flow-ocr</module>
+        <module>spider-flow-oss</module>
+        <module>spider-flow-proxypool</module>
+        <module>spider-flow-redis</module>
+        <module>spider-flow-selenium</module>
+        <module>spider-flow-translate</module>
+    </modules>
+</project>
